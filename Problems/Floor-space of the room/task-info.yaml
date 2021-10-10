@@ -1,0 +1,103 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: "fun main() {    \n    // write your code here\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4606#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:15:22: error: expecting '->'
+            "rectangular"" -> {
+                         ^
+    main.kt:15:23: error: expecting an expression
+            "rectangular"" -> {
+                          ^
+    main.kt:15:23: error: expecting '->'
+            "rectangular"" -> {
+                          ^
+    main.kt:15:28: error: expecting an expression
+            "rectangular"" -> {
+                               ^
+    main.kt:15:28: error: expecting '->'
+            "rectangular"" -> {
+                               ^
+    main.kt:16:13: error: expecting an expression
+                val a = readLine()!!.toDouble()
+                ^
+    main.kt:16:13: error: expecting '->'
+                val a = readLine()!!.toDouble()
+                ^
+    main.kt:17:13: error: expecting an expression
+                val b = readLine()!!.toDouble()
+                ^
+    main.kt:17:13: error: expecting '->'
+                val b = readLine()!!.toDouble()
+                ^
+    main.kt:18:23: error: expecting '->'
+                sq = a * b
+                          ^
+    main.kt:20:18: error: unexpected tokens (use ';' to separate expressions on the same line)
+            "circle" -> {
+                     ^
+    main.kt:25:5: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+        ^
+    main.kt:25:10: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+             ^
+    main.kt:25:11: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+              ^
+    main.kt:25:15: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                  ^
+    main.kt:25:16: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                   ^
+    main.kt:25:21: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                        ^
+    main.kt:25:22: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                         ^
+    main.kt:25:25: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                            ^
+    main.kt:25:27: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                              ^
+    main.kt:25:31: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                                  ^
+    main.kt:25:33: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                                    ^
+    main.kt:25:35: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                                      ^
+    main.kt:25:39: error: expecting a top level declaration
+        print(Math.round(sq * 10.0) / 10.0)
+                                          ^
+    main.kt:26:1: error: expecting a top level declaration
+    }
+    ^
+    main.kt:16:17: error: unresolved reference: a
+                val a = readLine()!!.toDouble()
+                    ^
+    main.kt:17:17: error: unresolved reference: b
+                val b = readLine()!!.toDouble()
+                    ^
+    main.kt:18:13: error: assignments are not expressions, and only expressions are allowed in this context
+                sq = a * b
+                ^
+    main.kt:18:18: error: unresolved reference: a
+                sq = a * b
+                     ^
+    main.kt:18:22: error: unresolved reference: b
+                sq = a * b
+                         ^
+  time: Sat, 02 Oct 2021 15:55:56 UTC
+record: -1
